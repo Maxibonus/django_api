@@ -1,6 +1,7 @@
 from django.db import models
 
 # Create your models here.
+# https://www.django-rest-framework.org/
 
 class Course(models.Model):
     name = models.CharField(max_length=200)
